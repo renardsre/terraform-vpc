@@ -2,7 +2,7 @@ terraform {
 
   backend "s3" {
     profile                = "default"
-    bucket                 = "tfstate"
+    bucket                 = "tfstate-bucket"
     region                 = "ap-southeast-3"
     key                    = "production/instance/terraform.tfstate"
     dynamodb_table         = "tf-lock"

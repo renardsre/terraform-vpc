@@ -17,7 +17,7 @@ module "instance" {
 
 }
 
-resource "aws_security_group_rule" "ingress_rules_22" {
+resource "aws_security_group_rule" "ingress_rule_22" {
 
   type              = "ingress"
   from_port         = 22
